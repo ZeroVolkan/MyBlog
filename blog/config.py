@@ -47,10 +47,5 @@ def get_env_variables(config: dict[str, any]) -> dict[str, any]:
     return new
 
 
-if __name__ == "__main__":
-    db1 = ConfigDB.from_path('config.toml', 'database')
-    db2 = ConfigDB("he", 'STRAS', 'gsd', 'sadfw')
-
-    print(db1, db2)
 
 
