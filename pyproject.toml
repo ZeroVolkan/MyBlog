@@ -7,10 +7,15 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-fastapi = {extras = ["all"], version = "^0.110.0"}
 sqlalchemy = "^2.0.29"
+fastapi = "^0.111.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+include = ["src"]
+venvPath = "/home/volkan/.cache/pypoetry/virtualenvs/"
+venv = "blog-aZh4u_5A-py3.12"
