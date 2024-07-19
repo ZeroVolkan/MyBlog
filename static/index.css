@@ -1,0 +1,36 @@
+body {
+    background: rgb(15, 15, 15);
+    color: white;
+}
+
+header {
+    overflow: hidden;
+    font-size: 42px;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header .settings {
+    float: left;
+}
+
+header .name {
+    float: right;
+}
+
+.blog {
+    margin-inline: auto;
+    width: 90%;
+    height: 250px;
+    border-radius: 17px;
+    background: rgb(35, 35, 35);
+    padding: 5px;
+    padding-left: 15px;
+}
+
+h1 {
+    margin: 5px;
+    text-align: center;
+}
