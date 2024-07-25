@@ -5,6 +5,8 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 
+from .config import settings
+from .database import engine
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
